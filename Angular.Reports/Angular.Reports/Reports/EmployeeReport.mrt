@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <CalculationMode>Interpretation</CalculationMode>
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="1">
+      <JSON Ref="2" type="Stimulsoft.Report.Dictionary.StiJsonDatabase" isKey="true">
+        <Alias>JSON</Alias>
+        <Key />
+        <Name>JSON</Name>
+        <PathData>resource://Data</PathData>
+      </JSON>
+    </Databases>
+    <DataSources isList="true" count="1">
+      <root Ref="3" type="DataTableSource" isKey="true">
+        <Alias>root</Alias>
+        <Columns isList="true" count="3">
+          <value>Phone,System.String</value>
+          <value>email,System.String</value>
+          <value>name,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>1c12750d5d7040b08059be28d36e78c5</Key>
+        <Name>root</Name>
+        <NameInSource>JSON.root</NameInSource>
+      </root>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Resources isList="true" count="1">
+      <value>Name=Data, Alias=Data, Type=Json, Content=K1vl3N_x002B_AvhN2CkqAmmgBuotjebhE4WdS_x002B_Evm3U7r8dwWSW1YlWA4nGiUeI9_x002B_TDDQAdpRFL9DP9lWLnXV4FBajp8zZ4pU8V0kZ16SiIURloGGX5HJULh4v7ltC9jU5J5BqFL7KpsY14Y_x002B_3goUic5qZNG_x002F_rtKogs97OXHytPlpgsBgjb_x002F_cpJV3P8wSf5cBsrk6kbnIhPyfOQHtJfHxzUWJuoqvHBL80GBPt5LDC6EyghRIpinqim3bsFtCBo35FWWTxAY3H2_x002F_0_x002B_qWqW9IWxpb68hfNWe9y2SY_x003D_</value>
+    </Resources>
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <Key>169acfb458214d76ac8fd4084e9eb002</Key>
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="4" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="3">
+        <ReportTitleBand1 Ref="5" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,19.01,0.8</ClientRectangle>
+          <Components isList="true" count="2">
+            <Text1 Ref="6" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,6.4,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,14,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="4" />
+              <Parent isRef="5" />
+              <Text>Employee Report</Text>
+              <TextBrush>[83:129:53]</TextBrush>
+              <Type>Expression</Type>
+            </Text1>
+            <Text2 Ref="7" type="Text" isKey="true">
+              <Border>None;[0:0:0];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12.2,0,6.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text2</Name>
+              <Page isRef="4" />
+              <Parent isRef="5" />
+              <Text>Printed On : {Today}</Text>
+              <TextBrush>[83:129:53]</TextBrush>
+              <Type>Expression</Type>
+            </Text2>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>ReportTitleBand1</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+        </ReportTitleBand1>
+        <ColumnHeaderBand1 Ref="8" type="Stimulsoft.Report.Components.StiColumnHeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,2,19.01,0.6</ClientRectangle>
+          <Components isList="true" count="3">
+            <Text6 Ref="9" type="Text" isKey="true">
+              <Border>None;[83:129:53];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>[83:129:53]</Brush>
+              <ClientRectangle>0,0,6.4,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text6</Name>
+              <Page isRef="4" />
+              <Parent isRef="8" />
+              <Text>Name</Text>
+              <TextBrush>[255:255:255]</TextBrush>
+              <Type>Expression</Type>
+            </Text6>
+            <Text7 Ref="10" type="Text" isKey="true">
+              <Border>None;[83:129:53];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>[83:129:53]</Brush>
+              <ClientRectangle>6.4,0,5.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <Guid>db367d5035304e0d8a09b0a45f21e0ed</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text7</Name>
+              <Page isRef="4" />
+              <Parent isRef="8" />
+              <Text>Phone</Text>
+              <TextBrush>[255:255:255]</TextBrush>
+              <Type>Expression</Type>
+            </Text7>
+            <Text8 Ref="11" type="Text" isKey="true">
+              <Border>None;[83:129:53];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>[83:129:53]</Brush>
+              <ClientRectangle>12.2,0,6.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <Guid>1569edca6b884436a75e901c51ce6ce1</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text8</Name>
+              <Page isRef="4" />
+              <Parent isRef="8" />
+              <Text>Email</Text>
+              <TextBrush>[255:255:255]</TextBrush>
+              <Type>Expression</Type>
+            </Text8>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>ColumnHeaderBand1</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+        </ColumnHeaderBand1>
+        <DataBand1 Ref="12" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,3.4,19.01,0.6</ClientRectangle>
+          <Components isList="true" count="3">
+            <Text3 Ref="13" type="Text" isKey="true">
+              <Border>None;[0:0:0];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,6.4,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text3</Name>
+              <Page isRef="4" />
+              <Parent isRef="12" />
+              <Text>{root.name}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </Text3>
+            <Text4 Ref="14" type="Text" isKey="true">
+              <Border>None;[0:0:0];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.4,0,5.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text4</Name>
+              <Page isRef="4" />
+              <Parent isRef="12" />
+              <Text>{root.Phone}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </Text4>
+            <Text5 Ref="15" type="Text" isKey="true">
+              <Border>None;[0:0:0];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12.2,0,6.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text5</Name>
+              <Page isRef="4" />
+              <Parent isRef="12" />
+              <Text>{root.email}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+            </Text5>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataRelationName isNull="true" />
+          <DataSourceName>root</DataSourceName>
+          <Filters isList="true" count="0" />
+          <Name>DataBand1</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Sort isList="true" count="0" />
+        </DataBand1>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>86cc9f6583bc448abf01d7a9507fe987</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>Page1</Name>
+      <PageHeight>29.69</PageHeight>
+      <PageWidth>21.01</PageWidth>
+      <Report isRef="0" />
+    </Page1>
+  </Pages>
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>8/16/2020 2:39:14 AM</ReportChanged>
+  <ReportCreated>8/16/2020 2:39:14 AM</ReportCreated>
+  <ReportGuid>fbdd24f0d45e4daf8b1ba2ca1659464b</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2020.4.1.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        public Report()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>
